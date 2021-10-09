@@ -12,13 +12,13 @@ h1 {
   flex-flow: column;
   align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .card_wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 45px 0 45px;
 }
 
 .card_items {
@@ -53,7 +53,7 @@ h1 {
 
 .fade-img {
   animation-name: fade-img;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
 }
 
 .card_item_pic-wrap::after {
@@ -63,7 +63,7 @@ h1 {
   margin-left: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   color: #fff;
   background-color: #1f98f4;
@@ -82,11 +82,11 @@ h1 {
   height: 100%;
   max-height: 100%;
   object-fit: cover;
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
 }
 
 .card_item_img:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 .card_item_info {
