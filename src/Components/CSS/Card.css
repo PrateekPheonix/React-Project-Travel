@@ -1,6 +1,6 @@
 .card {
   padding: 4rem;
-  background: #fff;
+  background: #ffffff;
 }
 
 h1 {
@@ -65,7 +65,7 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 13px;
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   background-color: #1f98f4;
   box-sizing: border-box;
 }
